@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>BI | Economia Circular — Governança Colaborativa SJRP</title>
+<style>
+:root{--ink:#16342e;--muted:#667b76;--bg:#f3f7f5;--card:#fff;--line:#d9e5e0;--accent:#25705c;--soft:#e9f3ef;--warn:#fff5dc;--gap:#fbe8e5}
+*{box-sizing:border-box} body{margin:0;font-family:Segoe UI,Arial,sans-serif;background:var(--bg);color:var(--ink)}
+header{padding:34px 6vw 62px;background:linear-gradient(120deg,#173d34,#2f7c68);color:white}
+header h1{margin:0;font-size:30px} header p{margin:8px 0 0;opacity:.9}
+main{max-width:1260px;margin:-38px auto 0;padding:0 22px 30px}
+.kpis{display:grid;grid-template-columns:repeat(4,1fr);gap:13px;margin-bottom:18px}
+.kpi,.panel{background:white;border:1px solid var(--line);border-radius:15px;box-shadow:0 5px 18px #173d3410}
+.kpi{padding:19px} .kpi strong{font-size:28px;color:var(--accent);display:block} .kpi span{font-size:12px;color:var(--muted)}
+.tabs{display:flex;gap:7px;flex-wrap:wrap;margin:16px 0} button{padding:9px 13px;border-radius:999px;border:1px solid var(--line);background:white;cursor:pointer;color:var(--ink)} button.active{background:var(--accent);color:white;border-color:var(--accent)}
+.section{display:none} .section.active{display:block} .panel{padding:20px;margin-bottom:16px}
+h2{font-size:18px;margin:0 0 12px} h3{font-size:13px;text-transform:uppercase;letter-spacing:.05em;color:var(--accent);margin:0 0 8px}
+.flow{display:grid;grid-template-columns:1fr auto 1fr auto 1fr;gap:10px;align-items:stretch} .box{background:var(--soft);border-radius:12px;padding:17px;line-height:1.45} .arrow{font-size:27px;align-self:center;color:var(--accent)}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:16px} ul{padding-left:19px;margin:7px 0} li{margin:7px 0;line-height:1.4}
+table{width:100%;border-collapse:collapse;font-size:13px} th,td{padding:10px;text-align:left;vertical-align:top;border-bottom:1px solid var(--line)} th{background:var(--soft)}
+.status{white-space:nowrap;border-radius:999px;padding:5px 8px;background:var(--soft);font-size:11px} .status.gap{background:var(--gap)} .status.prio{background:var(--warn)}
+.note{background:var(--warn);border-left:4px solid #b78318;box-shadow:none} .chain{font-weight:650;text-align:center;font-size:16px;line-height:2}
+details{background:white;border:1px solid var(--line);border-radius:11px;margin:8px 0;padding:12px 14px} summary{font-weight:700;cursor:pointer;color:var(--accent)}
+.badges span{display:inline-block;background:var(--soft);padding:6px 9px;border-radius:999px;margin:3px;font-size:12px}
+footer{text-align:center;color:var(--muted);font-size:11px;padding:10px 20px 28px}
+@media(max-width:850px){.kpis,.grid2{grid-template-columns:1fr 1fr}.flow{grid-template-columns:1fr}.arrow{transform:rotate(90deg);justify-self:center}}
+@media(max-width:560px){.kpis,.grid2{grid-template-columns:1fr}}
+@media print{.tabs{display:none}.section{display:block!important}main{margin:0}header{padding-bottom:30px}}
+</style></head>
+<body>
+<header><h1>Governança Colaborativa — Economia Circular</h1><p>Reunião de 11/09/2026 • 11 participantes • São José do Rio Preto</p></header>
+<main>
+<div class="kpis">
+<div class="kpi"><strong>11</strong><span>participantes</span></div>
+<div class="kpi"><strong>10</strong><span>reflexões estruturantes</span></div>
+<div class="kpi"><strong>1</strong><span>desafio central definido</span></div>
+<div class="kpi"><strong>3</strong><span>lacunas críticas: cenário, indicadores e curto prazo</span></div>
+</div>
+<div class="tabs">
+<button class="active" onclick="show('mapa',this)">Mapa Estratégico</button>
+<button onclick="show('pestel',this)">PESTEL</button>
+<button onclick="show('transformacao',this)">Transformação</button>
+<button onclick="show('dados',this)">Dados & Referências</button>
+<button onclick="show('proxima',this)">Próxima Rodada</button>
+</div>
+
+<section id="mapa" class="section active">
+<div class="panel"><h2>Mapa da transformação</h2>
+<div class="flow">
+<div class="box"><h3>Cenário atual</h3><b>Responsabilidade diluída na cadeia</b><p>Uso e descarte de recursos sem autoria clara; impactos e custos são transferidos à sociedade; circularidade ainda é percebida como custo.</p></div>
+<div class="arrow">→</div>
+<div class="box"><h3>Desafio central</h3><b>Responsabilidade compartilhada</b><p>Fazer com que os diferentes atores assumam autoria e gestão do uso e descarte dos recursos.</p></div>
+<div class="arrow">→</div>
+<div class="box"><h3>Cenário desejado 2036</h3><b>A construir com o cluster</b><p>O grupo ainda não definiu o cenário futuro. Esta lacuna deve ser deliberadamente fechada na próxima rodada.</p></div>
+</div></div>
+<div class="grid2">
+<div class="panel"><h2>Causas registradas</h2><ul><li>Ausência de incentivos adequados.</li><li>Dificuldade de implantação de nova cultura entre empresas e lideranças.</li><li>Tendência de transferir a responsabilidade para suposto desconhecimento ou falta de cultura da população.</li></ul></div>
+<div class="panel"><h2>Transformação já apontada</h2><p>Criação de incentivos para implementar uma cultura de responsabilidade ambiental entre lideranças e empresas.</p><div class="chain">CUSTO → INVESTIMENTO → RETORNO</div></div>
+</div>
+<div class="panel note"><b>Leitura de gestão:</b> o diagnóstico e o desafio central já estão relativamente claros. O gargalo agora é converter essa compreensão em cenário 2036, indicadores e resultados de curto prazo — três pontos que o próprio documento registra como ainda não definidos.</div>
+</section>
+
+<section id="pestel" class="section">
+<div class="panel"><h2>PESTEL — leitura estruturada da reunião</h2>
+<table><thead><tr><th>Dimensão</th><th>Elementos identificados</th><th>Leitura estratégica</th><th>Situação</th></tr></thead><tbody><tr><td><b>P — Político</b></td><td>Políticas públicas foram citadas como referência e há necessidade de incentivos para mudança de comportamento.</td><td>Poder público pode atuar como indutor, mas os incentivos ainda precisam ser definidos.</td>
+<td><span class="status ">Aprofundar</span></td></tr><tr><td><b>E — Econômico</b></td><td>Circularidade ainda percebida como custo; potenciais retornos são pouco considerados; custos de tratamento recaem sobre a sociedade.</td><td>O desafio é tornar visível a passagem de custo percebido para investimento e retorno.</td>
+<td><span class="status prio">Prioritário</span></td></tr><tr><td><b>S — Social</b></td><td>Responsabilidade é frequentemente atribuída à falta de cultura da população; o grupo pede nova cultura entre empresas e lideranças.</td><td>A responsabilidade precisa ser compartilhada ao longo da cadeia, e não concentrada no consumidor.</td>
+<td><span class="status prio">Prioritário</span></td></tr><tr><td><b>T — Tecnológico</b></td><td>Não foram identificados elementos tecnológicos específicos na reunião.</td><td>Mapear tecnologias para reduzir, rastrear, reutilizar, recuperar e reciclar recursos.</td>
+<td><span class="status gap">Lacuna</span></td></tr><tr><td><b>E — Ambiental</b></td><td>Poluição, descarte, tratamento, água, esgoto e resíduos contaminantes e não contaminantes.</td><td>O impacto deve ser analisado por setor e por etapa da cadeia produtiva.</td>
+<td><span class="status prio">Prioritário</span></td></tr><tr><td><b>L — Legal</b></td><td>Referências a coleta de medicamentos/pilhas e ao modelo alemão de devolução de garrafas.</td><td>Normas, barreiras e oportunidades regulatórias ainda não foram identificadas pelo grupo.</td>
+<td><span class="status gap">Lacuna</span></td></tr></tbody></table>
+</div>
+<div class="panel note"><b>Atenção:</b> Tecnologia e Legislação aparecem como lacunas. O BI não preenche esses campos por inferência; eles devem voltar ao cluster para aprofundamento.</div>
+</section>
+
+<section id="transformacao" class="section">
+<div class="panel"><h2>Chaves de transformação a aprofundar</h2>
+<div class="grid2">
+<div><h3>Pessoas & Empresas</h3><ul><li>Cultura de responsabilidade compartilhada.</li><li>Processos, gestão, modelos de negócio e mensuração.</li><li>Demonstrar economicamente o valor da circularidade.</li></ul></div>
+<div><h3>Ambiente habilitador</h3><ul><li>Incentivos e políticas públicas.</li><li>Infraestrutura de coleta, separação, tratamento, reaproveitamento e logística reversa.</li><li>Legislação e oportunidades regulatórias.</li><li>Educação e tecnologia.</li></ul></div>
+</div></div>
+<div class="panel"><h2>Sequência proposta para a construção coletiva</h2><div class="chain">CENÁRIO ATUAL → CAUSAS → TRANSFORMAÇÕES → CENÁRIO 2036 → INDICADORES → AÇÕES</div></div>
+</section>
+
+<section id="dados" class="section">
+<div class="grid2">
+<div class="panel"><h2>Agenda de inteligência</h2><ul>
+<li>Quantidade de resíduos gerados em cada etapa da cadeia.</li>
+<li>Segmentação por setor econômico.</li>
+<li>Tipos: esgoto, água, contaminantes e não contaminantes.</li>
+<li>Identificar quem possui os dados existentes.</li>
+<li>Distinguir bases disponíveis de pesquisa primária necessária.</li>
+<li>Levantar dados econômicos de custos e potenciais retornos.</li>
+</ul></div>
+<div class="panel"><h2>Referências registradas</h2><div class="badges"><span>Setor de drogarias</span><span>Coleta de medicamentos vencidos</span><span>Coleta de pilhas</span><span>Modelo alemão de devolução</span><span>Selos corporativos</span></div><p>O documento pede aprofundamento do funcionamento prático e dos casos de sucesso antes de transformar essas referências em propostas locais.</p></div>
+</div>
+<div class="panel note"><b>Princípio de segmentação:</b> o próprio grupo alerta que abordagens genéricas são inadequadas. A análise deve separar setores e etapas específicas das cadeias produtivas.</div>
+</section>
+
+<section id="proxima" class="section">
+<div class="panel"><h2>Perguntas de aprofundamento — clique para abrir</h2><details><summary>1. Cenário atual</summary><ul><li>Quais elos mais transferem responsabilidade e para quem?</li><li>Quais impactos são mais relevantes: ambientais, econômicos, sociais ou operacionais?</li><li>Em quais setores/cadeias o problema é mais crítico?</li><li>Quais fatores são conjunturais e quais são estruturais?</li><li>Que oportunidades econômicas existem na melhor gestão dos recursos?</li><li>Quais dimensões PESTEL precisam ser aprofundadas?</li></ul></details><details><summary>2. Desafio central</summary><ul><li>O cluster confirma a diluição da responsabilidade como desafio central?</li><li>Em quais etapas ela ocorre com maior intensidade?</li><li>Quem precisa assumir maior protagonismo?</li><li>Que comportamento comprovaria a assunção de responsabilidade?</li><li>Quais partes estão ao alcance direto do cluster?</li></ul></details><details><summary>3. Causas</summary><ul><li>Incentivos e cultura são causas-raiz ou há causas anteriores?</li><li>Por que circularidade ainda é percebida como custo?</li><li>Quais incentivos estão faltando?</li><li>Por que a responsabilidade é transferida à população?</li><li>Como responsabilidades variam entre os atores da cadeia?</li><li>Quais causas dependem do cluster e quais de agentes externos?</li></ul></details><details><summary>4. Cenário 2036</summary><ul><li>Como funcionará uma cadeia regional circular em 2036?</li><li>Como estará distribuída a responsabilidade?</li><li>Que mudança ocorrerá em geração, reaproveitamento e descarte?</li><li>Como empresas perceberão economicamente a circularidade?</li><li>O que diferenciará 2036 de 2026?</li><li>Qual frase-síntese descreverá o cenário desejado?</li></ul></details><details><summary>5. Transformações</summary><ul><li>Que mudanças são necessárias em Pessoas, Empresas, Políticas Públicas, Infraestrutura, Legislação, Educação e Tecnologia?</li><li>Como demonstrar economicamente a passagem de custo para investimento?</li><li>Quais transformações devem ser priorizadas por estarem ao alcance do cluster?</li></ul></details><details><summary>6. Indicadores</summary><ul><li>Quais resultados demonstrarão responsabilidade efetiva ao longo da cadeia?</li><li>Que indicadores medirão geração, reaproveitamento, reciclagem, tratamento e destinação?</li><li>Como medir a mudança de custo para investimento?</li><li>Quais dados já existem e quais precisarão ser coletados?</li><li>Qual será a linha de base 2026?</li><li>Quais metas para 1, 3, 5 e 10 anos?</li></ul></details><details><summary>7. Curto prazo</summary><ul><li>Curto prazo será 90 dias, 6 meses ou 1 ano?</li><li>Qual ação-piloto pode demonstrar resultados rapidamente?</li><li>Qual resíduo/recurso pode iniciar um projeto demonstrativo?</li><li>Quantas empresas mobilizar e qual compromisso esperar?</li><li>Que levantamento de dados pode ser concluído rapidamente?</li><li>Qual caso bem-sucedido pode servir como prova?</li></ul></details><details><summary>8. Referências</summary><ul><li>O que das referências citadas é replicável em Rio Preto?</li><li>Como funciona na prática a coleta no setor de drogarias?</li><li>Quais princípios do modelo alemão podem inspirar soluções locais?</li><li>Quais selos devem ser estudados?</li><li>Que referências brasileiras, municipais ou regionais existem?</li><li>Que referência é adequada a cada cadeia/resíduo?</li></ul></details><details><summary>9. Dados</summary><ul><li>Quais setores devem ser priorizados no primeiro levantamento?</li><li>Quais etapas da cadeia devem ser medidas separadamente?</li><li>Quais resíduos/recursos entram primeiro na linha de base?</li><li>Quem possui os dados hoje?</li><li>O que existe em bases e o que exigirá pesquisa primária?</li><li>Como medir resíduos em cada etapa produtiva?</li><li>Que dados econômicos permitem calcular custos e retornos?</li></ul></details><details><summary>10. Próxima rodada</summary><ul><li>Quais setores/etapas devem ser tratados separadamente?</li><li>São necessários subgrupos?</li><li>Quais conexões com outros clusters devem ser mapeadas?</li><li>Quais temas são obrigatórios na próxima reunião?</li><li>Que decisões transformarão diagnóstico em plano de ação?</li><li>Quem assume responsabilidades e prazos?</li><li>Como visualizar cenário → causas → transformações → destino → indicadores → ações?</li></ul></details></div>
+<div class="panel"><h2>Decisões que a próxima rodada precisa buscar</h2>
+<div class="grid2"><ul><li>Validar o desafio central.</li><li>Identificar causas-raiz.</li><li>Construir uma frase-síntese para o cenário 2036.</li><li>Priorizar transformações ao alcance do cluster.</li></ul>
+<ul><li>Escolher indicadores e linha de base 2026.</li><li>Definir horizonte de curto prazo.</li><li>Selecionar ação-piloto/setor/resíduo.</li><li>Definir responsáveis, dados e prazos.</li></ul></div></div>
+</section>
+</main>
+<footer>BI executivo elaborado exclusivamente a partir do arquivo do Cluster Economia Circular. Perguntas de aprofundamento são apresentadas como agenda para deliberação, não como respostas do grupo.</footer>
+<script>
+function show(id,b){document.querySelectorAll('.section').forEach(x=>x.classList.remove('active'));document.querySelectorAll('.tabs button').forEach(x=>x.classList.remove('active'));document.getElementById(id).classList.add('active');b.classList.add('active')}
+</script>
+</body></html>
